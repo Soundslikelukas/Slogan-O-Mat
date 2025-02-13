@@ -75,7 +75,7 @@ verben = [
 ]
 
 st.title("Willkommen zum Slogan-O-Mat!")
-st.subheader("Ich schlage dir zufällige Wortkombinationen vor, um dich zu inspirieren! Wenn dir ein Wort gefällt, klicke es einfach an. Damit verwende ich es häufiger. Du kannst jedes Wort beliebig oft anklicken.")
+st.write("Ich schlage dir zufällige Wortkombinationen vor, um dich zu inspirieren! Klicke auf ein Wort, wenn du möchtest, dass ich es dir öfter vorschlage. Du kannst jedes Wort beliebig oft anklicken.")
 number_of_words = st.slider("Wie viele Wörter soll ich dir schreiben?", 1, 8, 3)
 
 
@@ -118,9 +118,9 @@ for index, slogan in enumerate(reversed(st.session_state.slogans)):
         for col, word in zip(columns, words):  # Verteile jedes Wort auf die Spalten
             with col:
                 if word in st.session_state.custom_words:
-                    col.button(word, on_click=addWord, args=(word,), key=f"button_{word}", type="secondary", use_container_width=True)
-                else:
                     col.button(word, on_click=addWord, args=(word,), key=f"button_{word}", type="primary", use_container_width=True)
+                else:
+                    col.button(word, on_click=addWord, args=(word,), key=f"button_{word}", type="tertiary", use_container_width=True)
 
         st.divider()
     else:
