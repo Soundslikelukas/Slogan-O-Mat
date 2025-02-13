@@ -102,7 +102,6 @@ def addSlogan():
     st.session_state.slogans.append(newSlogan)
 
 
-
 def addWord(word):
     for i in range(10):
         st.session_state.custom_words.append(word)
@@ -112,16 +111,12 @@ def addWord(word):
 st.button(":game_die: Mach mir einen Slogan!", on_click=addSlogan)
 st.write("")
 
-st.html('<div class="button-container">')
-
 for index, slogan in enumerate(reversed(st.session_state.slogans)):
     if index == 0:
 
         for word in slogan.split():
-
             st.button(word, on_click=addWord, args=(word,), key=f"button_{word}")
 
         st.divider()
     else:
         st.write(slogan)
-st.html('</div>')
