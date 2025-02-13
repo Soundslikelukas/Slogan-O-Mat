@@ -1,6 +1,5 @@
 import streamlit as st
 import random
-import time
 
 nomen = [
     "Erneuerung", "Fairness", "Gemeinschaft", "Energie", "Freiheit", "Frischer Wind", "Verankerung",
@@ -75,33 +74,69 @@ verben = [
     "waschen", "bügeln", "staubsaugen", "ordnen", "reparieren", "dekorieren", "einkaufen", "aufhängen", "kochen"
 ]
 
+# CSS für Button-Container
+st.markdown("""
+    <style>
+    .button-container {
+        display: flex;              /* Anordnung der Buttons in einer Linie */
+        gap: 10px;                  /* Genau 10px Abstand zwischen den Buttons */
+        flex-wrap: nowrap;          /* Kein automatisches Umbrechen */
+        justify-content: flex-start; /* Links ausrichten (oder change to "center"/"space-between") */
+        margin-top: 20px;           /* Optional: Abstand vom oberen Inhalt */
+    }
+    .button-container button {
+        flex: none; /* Verhindert, dass Buttons gestreckt werden */
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+
 st.title("Willkommen zum Slogan-O-Mat!")
 st.subheader("Ich schlage dir zufällige Wortkombinationen vor, um dich zu inspirieren!")
-number_of_words = st.slider("Wie viele Wörter soll ich dir schreiben?",1 , 8, 4)
+number_of_words = st.slider("Wie viele Wörter soll ich dir schreiben?", 1, 8, 4)
+
 
 def generateSlogan():
     slogan = ""
     for _ in range(number_of_words):
-        word = random.choice(verben + pronomen + adverbien + nomen)
+        word = random.choice(verben + pronomen + adverbien + nomen + st.session_state.custom_words)
         while word in slogan:
             word = random.choice(verben + pronomen + adverbien + nomen)
         slogan += word
         slogan += " "
     return slogan
 
+
 if "slogans" not in st.session_state:
     st.session_state.slogans = []
+
+if "custom_words" not in st.session_state:
+    st.session_state.custom_words = []
+
 
 def addSlogan():
     newSlogan = generateSlogan()
     st.session_state.slogans.append(newSlogan)
 
+
+
+def addWord(word):
+    for i in range(10):
+        st.session_state.custom_words.append(word)
+    st.toast(f'**{word}** als Favorit hinzugefügt!', icon='🌱')
+
+
 st.button(":game_die: Mach mir einen Slogan!", on_click=addSlogan)
 st.write("")
 
+
 for index, slogan in enumerate(reversed(st.session_state.slogans)):
     if index == 0:
-        st.subheader(slogan)
+        st.markdown('<div class="button-container">', unsafe_allow_html=True)
+        for word in slogan.split():
+            st.button(word, on_click=addWord, args=(word,), key=f"button_{word}")
+
+        st.markdown('</div>', unsafe_allow_html=True)
         st.divider()
     else:
         st.write(slogan)
