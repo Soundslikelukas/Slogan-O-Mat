@@ -21,12 +21,24 @@
       height: 100%;
       border: none; /* Entferne den Rahmen um das iFrame */
     }
+    .button-container {
+        display: flex;              /* Anordnung der Buttons in einer Linie */
+        gap: 10px;                  /* Genau 10px Abstand zwischen den Buttons */
+        flex-wrap: nowrap;          /* Kein automatisches Umbrechen */
+        justify-content: flex-start; /* Links ausrichten (oder change to "center"/"space-between") */
+        margin-top: 20px;           /* Optional: Abstand vom oberen Inhalt */
+    }
+    Button {
+        color: #00FF00;
+        flex: none; /* Verhindert, dass Buttons gestreckt werden */
+    }
   </style>
 
 </head>
 <body>
+<div class="button-container">
 <iframe src="https://slogan-o-mat.streamlit.app?embed=true&embed_options=dark_theme">
 </iframe>
-
+</div>
 </body>
 </html>
