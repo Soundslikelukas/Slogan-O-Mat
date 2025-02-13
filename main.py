@@ -76,7 +76,7 @@ verben = [
 
 st.title("Willkommen zum Slogan-O-Mat!")
 st.subheader("Ich schlage dir zufällige Wortkombinationen vor, um dich zu inspirieren!")
-number_of_words = st.slider("Wie viele Wörter soll ich dir schreiben?", 1, 8, 4)
+number_of_words = st.slider("Wie viele Wörter soll ich dir schreiben?", 1, 8, 3)
 
 
 def generateSlogan():
