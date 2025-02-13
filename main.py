@@ -54,10 +54,10 @@ for index, slogan in enumerate(reversed(st.session_state.slogans)):
         for col, word in zip(columns, words):  # Verteile jedes Wort auf die Spalten
             with col:
                 if word in st.session_state.custom_words:
-                    col.button(word, on_click=addWord, args=(word,), key=f"button_{word}", type="primary",
+                    col.button(word, on_click=addWord, args=(word,), key=f"button_{word}", type="tertiary",
                                use_container_width=True)
                 else:
-                    col.button(word, on_click=addWord, args=(word,), key=f"button_{word}", type="tertiary",
+                    col.button(word, on_click=addWord, args=(word,), key=f"button_{word}", type="secondary",
                                use_container_width=True)
 
         st.divider()
