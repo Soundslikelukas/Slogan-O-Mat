@@ -5,7 +5,7 @@ nomen = [
     "Ausweg", "Balance", "Barrierefreiheit", "Bauernhof", "Bekenntnis", "Beteiligung",
     "Bewegung", "Bildung", "Biodiversität", "Blickwinkel", "Blütezeit", "Bodenständigkeit",
     "Botschaft", "Brückenbau", "Bündnis", "Bürgernähe", "Bürgerrecht", "Chance",
-    "Charisma", "Charakter", "Chemie", "Chor", "Community", "Denkanstoß",
+    "Charisma", "Charakter", "Chemie", "Chor", "Community", "Denkanstoss",
     "Demokratie", "Dialog", "Diversität", "Dynamik", "Durchblick", "Durchbruch",
     "Echtheit", "Effizienz", "Eigeninitiative", "Einsatz", "Energie", "Engagement",
     "Enthusiasmus", "Entfaltung", "Entlastung", "Entscheidung", "Entwicklung", "Epoche",
@@ -57,12 +57,12 @@ nomen = [
 adverbien = [
     "abermals", "absolut", "achtsam", "allgemein", "allein", "allzu",
     "angeblich", "angemessen", "angstfrei", "anständig", "ausdrücklich",
-    "ausführlich", "ausnahmslos", "ausreichend", "außergewöhnlich",
+    "ausführlich", "ausnahmslos", "ausreichend", "aussergewöhnlich",
     "authentisch", "bald", "barrierefrei", "bedingungslos", "begeistert",
     "beharrlich", "beherzt", "bekanntlich", "belastbar", "beliebig",
-    "benutzerfreundlich", "berührend", "bescheiden", "besonderermaßen",
+    "benutzerfreundlich", "berührend", "bescheiden", "besonderermassen",
     "beständig", "bestens", "bewegend", "bewusst", "bildhaft",
-    "billig", "blitzschnell", "bloß", "bodenständig", "bravourös",
+    "billig", "blitzschnell", "bloss", "bodenständig", "bravourös",
     "breitgefächert", "brennend", "brillant", "chaotisch", "charaktervoll",
     "charmant", "deutlich", "dicht", "direkt", "diszipliniert",
     "doppelt", "dringend", "durchaus", "durchdringend", "durchgehend",
@@ -74,11 +74,11 @@ adverbien = [
     "entfesselnd", "entschlossen", "entwicklungsorientiert", "erfahren",
     "erfinderisch", "erfolgreich", "erfreulich", "erfüllt", "ergiebig",
     "erheblich", "erkennbar", "erleuchtend", "erstaunlich", "erwartungsvoll",
-    "erweitert", "erwiesenermaßen", "exakt", "exklusiv", "experimentierfreudig",
+    "erweitert", "erwiesenermassen", "exakt", "exklusiv", "experimentierfreudig",
     "explizit", "fachkundig", "faktisch", "fantasievoll", "federleicht",
     "feinfühlig", "felsenfest", "fern", "fest", "fieberhaft",
     "filigran", "finanziell", "flächendeckend", "flexibel",
-    "flink", "fließend", "fokussiert", "folgend", "formvollendet",
+    "flink", "fliessend", "fokussiert", "folgend", "formvollendet",
     "fortlaufend", "fortschrittlich", "fraglos", "frei", "freilich",
     "freundlich", "friedlich", "frisch", "froh", "fruchtbar",
     "fulminant", "fundiert", "gefühlvoll", "gekonnt", "gemeinschaftlich",
@@ -87,7 +87,7 @@ adverbien = [
     "getreu", "gewaltfrei", "gewissenhaft", "gewollt", "gigantisch",
     "glasklar", "glatt", "gleich", "gleichbleibend", "gleichzeitig",
     "glorreich", "glücklich", "gottseidank", "gründlich", "grenzenlos",
-    "griffig", "großartig", "grundsätzlich", "gründlich", "gut",
+    "griffig", "grossartig", "grundsätzlich", "gründlich", "gut",
     "halbwegs", "harmonisch", "hartnäckig", "hautnah", "heftig",
     "heilsam", "heimisch", "heiter", "heldenhaft", "herzlich",
     "herzerwärmend", "hilfreich", "himmelweit", "hintergründig",
@@ -105,19 +105,19 @@ adverbien = [
     "kurzfristig", "lachend", "langfristig", "lebendig", "leidenschaftlich",
     "leicht", "leise", "leistungsstark", "leserlich", "liebenswürdig",
     "liebevoll", "locker", "logisch", "lohnenswert", "löblich",
-    "lückenlos", "lustig", "maßgeblich", "maßvoll", "menschlich",
+    "lückenlos", "lustig", "massgeblich", "massvoll", "menschlich",
     "merklich", "methodisch", "mild", "minimalistisch", "miteinander",
     "mitfühlend", "mittlerweile", "modern", "modisch", "moralisch",
     "motiviert", "mutig", "nachdrücklich", "nachhaltig", "nachsichtig",
     "nahbar", "namentlich", "natürlich", "nebenbei", "nebenwirkungsfrei",
     "niederschwellig", "nie", "niemals", "nirgendwo", "noch",
     "notwendig", "nüchtern", "nunmehr", "objektiv", "offensichtlich",
-    "offiziell", "oftmals", "ohnegleichen", "ohneweiteres",
-    "ordnungsgemäß", "originell", "partnerschaftlich", "passend",
+    "offiziell", "oftmals", "ohnegleichen", "ohne weiteres",
+    "ordnungsgemäss", "originell", "partnerschaftlich", "passend",
     "persönlich", "phantasievoll", "plötzlich", "politisch", "potenziell",
     "praktisch", "prächtig", "präzise", "preiswert", "problemlos",
     "proaktiv", "professionell", "progressiv", "pünktlich", "radikal",
-    "rasant", "realistisch", "rechtzeitig", "redegewandt", "regelmäßig",
+    "rasant", "realistisch", "rechtzeitig", "redegewandt", "regelmässig",
     "reichhaltig", "reichlich", "reif", "rein", "relevant",
     "respektvoll", "richtig", "risikofrei", "risikofreudig",
     "robust", "romantisch", "routiniert", "ruckartig", "rücksichtsvoll",
@@ -146,7 +146,7 @@ adverbien = [
     "unverhofft", "unvorhergesehen", "unweigerlich",
     "urplötzlich", "ursprünglich", "variabel", "verantwortungsvoll",
     "verbindlich", "verdächtig", "verfügbar", "vergnügt",
-    "verhältnismäßig", "verlockend", "vermehrt", "vermutlich",
+    "verhältnismässig", "verlockend", "vermehrt", "vermutlich",
     "verrückt", "verschwenderisch", "versiert", "verständlich",
     "vertrauensvoll", "vielfach", "vielfältig", "virtuell",
     "visionär", "vital", "vollends", "vollständig", "vorbildlich",
@@ -154,11 +154,11 @@ adverbien = [
     "wachsam", "warmherzig", "weitsichtig", "weitläufig",
     "wenigstens", "wertvoll", "wesentlich", "wichtig",
     "widerstandsfähig", "willkommen", "wissbegierig",
-    "wohlerzogen", "wohlgemerkt", "wunderbar", "wunschgemäß",
-    "wütend", "zaghaft", "zauberhaft", "zeitgemäß",
+    "wohlerzogen", "wohlgemerkt", "wunderbar", "wunschgemäss",
+    "wütend", "zaghaft", "zauberhaft", "zeitgemäss",
     "zeitnah", "zielgerichtet", "zielstrebig",
     "zügig", "zuverlässig", "zuvorkommend",
-    "zweckmäßig", "zweifellos"
+    "zweckmässig", "zweifellos"
 ]
 
 pronomen = [
@@ -208,7 +208,7 @@ pronomen = [
 
 verben = [
     "abholen", "abstimmen", "anfeuern", "anpacken", "anregen", "anknüpfen",
-    "anstoßen", "antreiben", "auffangen", "auffordern", "aufklären", "aufleben",
+    "anstossen", "antreiben", "auffangen", "auffordern", "aufklären", "aufleben",
     "auflösen", "aufmachen", "aufmischen", "aufnehmen", "aufrechterhalten",
     "aufstehen", "auftanken", "auftreten", "aufzeigen", "aufwecken",
     "aufwerten", "ausbauen", "ausbrechen", "ausgleichen", "ausleuchten",
@@ -228,13 +228,13 @@ verben = [
     "entwickeln", "erfahren", "erfinden", "erfühlen", "erfüllen",
     "erhalten", "erheben", "erklären", "erleben", "erleuchten",
     "ermächtigen", "ermöglichen", "ermutigen", "erneuern", "erobern",
-    "eröffnen", "erreichen", "erschaffen", "erschließen", "erschüttern",
+    "eröffnen", "erreichen", "erschaffen", "erschliessen", "erschüttern",
     "erwägen", "erweitern", "erzählen", "etablieren", "experimentieren",
     "facilitieren", "fördern", "formen", "fragen", "freisetzen",
     "friedlich kämpfen", "fühlen", "füllen", "führen", "gedenken",
     "gegenhalten", "gegensteuern", "gemeinsam schaffen", "gestalten",
-    "gewähren", "gewinnen", "gießen", "glänzen", "glühen",
-    "greifen", "gründen", "grüßen", "handeln", "hervorbringen",
+    "gewähren", "gewinnen", "giessen", "glänzen", "glühen",
+    "greifen", "gründen", "grüssen", "handeln", "hervorbringen",
     "hervorrufen", "hineindenken", "hineinfühlen", "hineinversetzen",
     "hoffen", "hören", "impulse setzen", "in Bewegung bringen",
     "initiieren", "inspirieren", "intervenieren", "investieren",
@@ -258,7 +258,7 @@ verben = [
     "schützen", "sehen", "sensibilisieren", "sichern",
     "signalisieren", "sortieren", "spenden", "spiegeln",
     "spüren", "stabilisieren", "staunen", "stehen",
-    "steuern", "stimmen", "stoßen", "streiten",
+    "steuern", "stimmen", "stossen", "streiten",
     "stärken", "stützen", "suchen", "teilen",
     "tragen", "träumen", "treffen", "überdenken",
     "überfluten", "übergeben", "überleben", "überlegen",
@@ -296,18 +296,18 @@ adjektive = [
     "einzigartig", "elegant", "eloquent", "empathisch",
     "energetisch", "engagiert", "erfinderisch", "erfolgreich",
     "erholsam", "ernsthaft", "erstaunlich", "fachkundig",
-    "fair", "fantasievoll", "fleißig", "flexibel",
+    "fair", "fantasievoll", "fleissig", "flexibel",
     "freundlich", "fröhlich", "friedlich", "geduldig",
     "geeignet", "geistreich", "gekonnt", "gemeinschaftlich",
     "genau", "genial", "gerecht", "gesund", "glücklich",
-    "großzügig", "harmonisch", "herzlich", "hilfsbereit",
+    "grosszügig", "harmonisch", "herzlich", "hilfsbereit",
     "hoffnungsvoll", "intelligent", "interessant",
     "innovativ", "intensiv", "jung", "kameradschaftlich",
     "kämpferisch", "klar", "klug", "kompetent",
     "konsequent", "kreativ", "kräftig", "kulturell",
     "lebendig", "leidenschaftlich", "lernfähig",
     "liebenswürdig", "logisch", "loyal", "mächtig",
-    "maßgeblich", "menschenfreundlich", "modern", "motiviert",
+    "massgeblich", "menschenfreundlich", "modern", "motiviert",
     "mutig", "nachhaltig", "nachsichtig", "natürlich",
     "neugierig", "offen", "optimistisch", "organisiert",
     "partnerschaftlich", "passioniert", "persönlich",
@@ -333,13 +333,13 @@ adjektive = [
     "durchschnittlich", "effizient", "eindeutig",
     "einfach", "ernst", "erprobt", "erwartbar",
     "existent", "extern", "formell", "funktional",
-    "gleichmäßig", "grundsätzlich", "häufig",
+    "gleichmässig", "grundsätzlich", "häufig",
     "hochwertig", "ideell", "indirekt", "intern",
     "klassisch", "kurz", "lang", "leicht",
-    "logisch", "mittelgroß", "möglich",
+    "logisch", "mittelgross", "möglich",
     "naheliegend", "nebenstehend", "neutral",
     "objektiv", "offensichtlich", "praktisch",
-    "pragmatisch", "regelmäßig", "relevant",
+    "pragmatisch", "regelmässig", "relevant",
     "reproduzierbar", "robust", "rund",
     "sachlich", "scheinbar", "sichtbar",
     "standardisiert", "systematisch", "technisch",
@@ -348,7 +348,7 @@ adjektive = [
     "vollständig", "wahrscheinlich", "wesentlich",
     "wirtschaftlich", "zeitlos", "zufällig",
     "abgehoben", "aggressiv", "altmodisch", "ängstlich",
-    "anmaßend", "arrogant", "bedrohlich", "befangen",
+    "anmassend", "arrogant", "bedrohlich", "befangen",
     "befremdlich", "beklommen", "belastend",
     "beschränkt", "bitter", "chaotisch",
     "düster", "egoistisch", "eigensinnig",
@@ -373,7 +373,7 @@ adjektive = [
     "rüpelhaft", "schadenfroh", "scheu",
     "schlampig", "schrecklich", "selbstgerecht",
     "sensationslüstern", "skandalös", "snobistisch",
-    "sorglos", "spießig", "starrköpfig",
+    "sorglos", "spiessig", "starrköpfig",
     "stumpfsinnig", "stur", "tadelnswert",
     "taktlos", "träumerisch", "trotzig",
     "überheblich", "übertrieben", "unaufrichtig",
@@ -417,12 +417,12 @@ praepositionen = [
     "ohne", "um", "wider",
 
     # Präpositionen mit dem Dativ
-    "ab", "aus", "außer", "bei", "dank",
-    "gegenüber", "gemäß", "mit", "nach",
+    "ab", "aus", "ausser", "bei", "dank",
+    "gegenüber", "gemäss", "mit", "nach",
     "seit", "von", "zu", "zufolge",
 
     # Präpositionen mit dem Genitiv
-    "anstatt", "außerhalb", "innerhalb",
+    "anstatt", "ausserhalb", "innerhalb",
     "infolge", "jenseits", "kraft", "längs",
     "laut", "oberhalb", "statt", "trotz",
     "ungeachtet", "unterhalb", "während", "wegen",
@@ -434,7 +434,7 @@ praepositionen = [
 
     # Präpositionen des Ortes (lokal)
     "abseits", "abwärts", "aufwärts",
-    "außerhalb", "diesseits", "entlang",
+    "ausserhalb", "diesseits", "entlang",
     "fernab", "hinter", "innerhalb",
     "jenseits", "links", "mittig",
     "nahe", "neben", "oberhalb",
@@ -479,7 +479,7 @@ praepositionen = [
     "unter Berücksichtigung", "im Gegensatz zu",
 
     # Umgangssprachliche Präpositionen
-    "außer", "ohne", "pro",
+    "ausser", "ohne", "pro",
     "via", "per",
 
     # Präpositionen in festen Wendungen
@@ -492,20 +492,20 @@ praepositionen = [
 konjunktionen = [
     # Nebenordnende Konjunktionen (koordinierende Konjunktionen)
     "aber", "allein", "also",
-    "andererseits", "außerdem", "bald",
-    "beziehungsweise", "bloß", "denn",
+    "andererseits", "ausserdem", "bald",
+    "beziehungsweise", "bloss", "denn",
     "doch", "einerseits", "entweder",
     "ferner", "folglich", "gleichwohl",
     "indessen", "jedoch", "mal",
     "nur", "oder", "respektive",
-    "schließlich", "sobald", "sodass",
+    "schliesslich", "sobald", "sodass",
     "sondern", "sowie", "stattdessen",
     "trotzdem", "und", "vielmehr",
     "weder", "zudem", "zwar",
 
     # Unterordnende Konjunktionen (subordinierende Konjunktionen)
     "als", "als ob", "anstatt dass",
-    "auch wenn", "außer dass", "bevor",
+    "auch wenn", "ausser dass", "bevor",
     "bis", "da", "dabei",
     "dadurch dass", "dass", "demnach",
     "denn", "deshalb", "deswegen",
@@ -571,7 +571,7 @@ konjunktionen = [
 
     # Konjunktionen zur Begründung oder Erklärung (explikative Konjunktionen)
     "nämlich", "und zwar",
-    "das heißt",
+    "das heisst",
     "mit anderen Worten",
 
     # Konjunktionen zur Wahlmöglichkeit (disjunktive Konjunktionen)
@@ -588,7 +588,7 @@ numerale = [
     "elf", "zwölf", "dreizehn", "vierzehn",
     "fünfzehn", "sechzehn", "siebzehn",
     "achtzehn", "neunzehn", "zwanzig",
-    "einundzwanzig", "zweiundzwanzig", "dreißig",
+    "einundzwanzig", "zweiundzwanzig", "dreissig",
     "vierzig", "fünfzig", "sechzig", "siebzig",
     "achtzig", "neunzig", "hundert", "tausend",
     "zehntausend", "hunderttausend",
@@ -601,7 +601,7 @@ numerale = [
     "achte", "neunte", "zehnte",
     "elfte", "zwölfte", "dreizehnte",
     "zwanzigste", "einundzwanzigste",
-    "dreißigste", "vierzigste",
+    "dreissigste", "vierzigste",
     "hundertste", "tausendste",
 
     # Bruchzahlen (Partitivzahlen)
@@ -640,9 +640,9 @@ numerale = [
 ]
 
 interjektionen = [
-    # Interjektionen zur Begrüßung und Verabschiedung
+    # Interjektionen zur Begrüssung und Verabschiedung
     "hallo", "hi", "hey",
-    "servus", "moin", "grüß dich",
+    "servus", "moin", "grüss dich",
     "tschüss", "ciao", "ade",
     "leb wohl", "bis bald", "auf Wiedersehen",
 
@@ -724,5 +724,4 @@ interjektionen = [
     "bäng", "ratsch"
 ]
 
-words = [
-    nomen + adverbien + pronomen + verben + adjektive + artikel + praepositionen + konjunktionen + numerale + interjektionen]
+words = nomen + adverbien + pronomen + verben + adjektive + artikel + praepositionen + konjunktionen + numerale + interjektionen

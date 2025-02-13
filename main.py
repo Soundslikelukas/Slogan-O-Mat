@@ -18,10 +18,10 @@ def getRandomWord():
 def generateSlogan():
     slogan = ""
     for _ in range(number_of_words):
-        word = getRandomWord()
-        while word in slogan:
-            word = getRandomWord()
-        slogan += word
+        randWord = getRandomWord()
+        while randWord in slogan:
+            randWord = getRandomWord()
+        slogan += randWord
         slogan += " "
     return slogan
 
