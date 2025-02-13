@@ -2,45 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" sizes="32x32" href="assets/favicon-96x96.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.ico">
     <title>Slogan-O-Mat</title>
     <style>
-        /* Setze iFrame auf volle Fenstergröße */
-        html, body {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-        }
+    /* Setze iFrame auf volle Fenstergröße */
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
 
-        iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none; /* Entferne den Rahmen um das iFrame */
-        }
-
-        .button-container {
-            display: flex; /* Anordnung der Buttons in einer Linie */
-            gap: 10px; /* Genau 10px Abstand zwischen den Buttons */
-            flex-wrap: nowrap; /* Kein automatisches Umbrechen */
-            justify-content: flex-start; /* Links ausrichten (oder change to "center"/"space-between") */
-            margin-top: 20px; /* Optional: Abstand vom oberen Inhalt */
-        }
-
-        Button {
-            color: #00FF00;
-            flex: none; /* Verhindert, dass Buttons gestreckt werden */
-        }
-    </style>
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none; /* Entferne den Rahmen um das iFrame */
+    }
+    .button-container {
+        display: flex;              /* Anordnung der Buttons in einer Linie */
+        gap: 10px;                  /* Genau 10px Abstand zwischen den Buttons */
+        flex-wrap: nowrap;          /* Kein automatisches Umbrechen */
+        justify-content: flex-start; /* Links ausrichten (oder change to "center"/"space-between") */
+        margin-top: 20px;           /* Optional: Abstand vom oberen Inhalt */
+    }
+    Button {
+        color: #00FF00;
+        flex: none; /* Verhindert, dass Buttons gestreckt werden */
+    }
+  </style>
 
 </head>
 <body>
 <div class="button-container">
-    <iframe src="https://slogan-o-mat.streamlit.app?embed=true&embed_options=dark_theme">
-    </iframe>
+<iframe src="https://slogan-o-mat.streamlit.app?embed=true&embed_options=dark_theme">
+</iframe>
 </div>
 </body>
 </html>
